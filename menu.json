@@ -1,0 +1,71 @@
+[
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "name": "Real Estate Project",
+        "desc": "This is a Real Estate Application built by one of our students for a client in Alberta.",
+        "image": "/images/realestate.jpg",
+        "Designer": "Prince Isaac",
+        "price": 5000
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "name": "Bank Management Project",
+        "desc": "This is a Bank Management Application built by one of our students for a client in Manitoba.",
+        "image": "/images/bank.png",
+        "Designer": "AlbertCEO",
+        "price": 6000
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "name": "Hospital Management Project",
+        "desc": "This is a Hospital Management Application built by one of our students for a client in Nova Scotia.",
+        "image": "/images/hospital.jpg",
+        "Designer": "Miss Aisha Ladan",
+        "price": 7000
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "name": "Ecommerce Website Project",
+        "desc": "This is a marketplace ecommerce  Application built by one of our students for a client in Toronto.",
+        "image": "/images/ecommerce.jpg",
+        "Designer": "Mr. Chidozie Obinna",
+        "price": 6500
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "name": "Church Website Project",
+        "desc": "This is a Church Website Application built by one of our students for a client in Prince Edward Island.",
+        "image": "/images/church.jpg",
+        "Designer": "Miss Chikodiri",
+        "price": 4000
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "name": "Payment Gateway Project",
+        "desc": "This is a Payment gateway used by clients in Nigeria co-built by one of our students for a client in Ontario.",
+        "image": "/images/payment.png",
+        "Designer": "Mr. Adebayo Abdullahi",
+        "price": 15000
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "name": "Software As A Service Project",
+        "desc": "This is a Software As A Service Application co-built by one of our students for a client in Halifax.",
+        "image": "/images/SAAS.png",
+        "Designer": "Mr. Kingsley John",
+        "price": 25000
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "name": "A Modern Blog Project",
+        "desc": "This is a fully featured Modern Blog Application built by one of our students for a client in Ottawa.",
+        "image": "/images/blog.jpg",
+        "Designer": "Mr. Emmanuel Diogu",
+        "price": 3500
+    }
+   
+]
+
+
+
+
