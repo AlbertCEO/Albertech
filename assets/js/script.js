@@ -36,12 +36,6 @@ for (let i = 0; i < navbarLinks.length; i++) {
 
 
 
-
-/**
- * header & go-top-btn active
- * when window scroll down to 400px
- */
-
 const header = document.querySelector("[data-header]");
 const goTopBtn = document.querySelector("[data-go-top]");
 
@@ -98,11 +92,6 @@ fetch("../menu.json").then(function(response){
       </div>
     </div>
   </li>
-
-      
-    
-    
-    
     `
   }
   projectHolder.innerHTML = out;
