@@ -37,7 +37,6 @@ function checkRequired(inputArr) {
       showError(input, `${getFieldName(input)} is required`);
     } else {
       showSuccess(input);
-      
     }
   });
 }
@@ -58,7 +57,9 @@ function checkLength(input, min, max) {
 function checkPasswordsMatch(input1, input2) {
   if (input1.value !== input2.value) {
     showError(input2, 'Passwords do not match');
-  } else {
+  } else if (input1.value == ""){
+    showError(input2, 'Passwords cannot Be Empty');
+  } else if (input1.value == input2.value && input1.value !== ""){
     Swal.fire({
       title: "Wow!!!",
       text: "Congratulations on Creating Your Account",
@@ -76,8 +77,9 @@ function checkPasswordsMatch(input1, input2) {
         window.location.href = "successpage.html"
       }
     });
-    // window.location.href = "successpage.html"
-  }
+    
+  
+  }  
 }
 
 // Get fieldname
@@ -90,9 +92,11 @@ form.addEventListener('submit', function (e) {
   e.preventDefault();
 
   checkRequired([username, email, password, password2]);
-  checkLength(username, 3, 15);
+  checkLength(username, 7, 15);
   checkLength(password, 6, 25);
   checkEmail(email);
   checkPasswordsMatch(password, password2);
+
+
   
 });
