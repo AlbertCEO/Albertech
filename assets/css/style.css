@@ -176,8 +176,8 @@ body {
 .btn {
   background-color: rgb(255, 255, 255);
   background-size: 200%;
-  color: #10000e ;
-  padding: 12px 35px; 
+  color: #10000e;
+  padding: 12px 35px;
   font-size: var(--fs-8);
   font-weight: var(--fw-500);
   border-radius: 25px;
@@ -1105,4 +1105,23 @@ body {
 #see-more-blog {
   text-align: center;
   padding-top: 40px;
+}
+
+/*-----------------------------------*\
+  #Page-body
+\*-----------------------------------*/
+#page-body {
+  padding-top: 100px;
+}
+
+#page-body h1 {
+  text-align: center;
+  font-size: 46px;
+  
+}
+
+#page-body p {
+  text-align: center;
+  font-size: 30px;
+  
 }
