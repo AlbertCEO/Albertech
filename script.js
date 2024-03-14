@@ -62,7 +62,7 @@ function checkPasswordsMatch(input1, input2) {
   } else if (input1.value == input2.value && input1.value !== ""){
     Swal.fire({
       title: "Wow!!!",
-      text: "Congratulations on Creating Your Account",
+      text: "Congratulations! on Creating Your Account",
       imageUrl: "https://unsplash.it/400/200",
       // showCancelButton: true,
       confirmButtonColor: "#3085d6",
