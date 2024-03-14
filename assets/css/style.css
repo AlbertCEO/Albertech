@@ -181,6 +181,8 @@ body {
   font-size: var(--fs-8);
   font-weight: var(--fw-500);
   border-radius: 25px;
+  border: solid;
+  border-color: #10000e;
   transition: var(--transition-2);
 }
 
