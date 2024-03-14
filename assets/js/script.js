@@ -51,7 +51,7 @@ window.addEventListener("scroll", function () {
 
 
 
-fetch("../menu.json").then(function(response){
+fetch("../project.json").then(function(response){
   return response.json();
 }).then(function(projects){
 
