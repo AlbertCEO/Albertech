@@ -1112,16 +1112,24 @@ body {
 \*-----------------------------------*/
 #page-body {
   padding-top: 100px;
+  display: block;
+  padding-top: 14%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 #page-body h1 {
   text-align: center;
   font-size: 46px;
-  
 }
 
 #page-body p {
   text-align: center;
   font-size: 30px;
+}
+
+#page-body tech-video{
+  display: block;
+  padding: 20px;
   
 }
