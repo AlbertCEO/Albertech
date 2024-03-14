@@ -126,4 +126,7 @@ fetch('http://ip-api.com/json/?fields=61439')
 
 
 
-
+// Redirect to a new page containing the detailed content
+function viewCardDetails() {
+  window.location.href = "card-details.html";
+}
