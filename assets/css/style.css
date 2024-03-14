@@ -1116,6 +1116,7 @@ body {
   padding-top: 14%;
   padding-left: 4%;
   padding-right: 4%;
+  padding-bottom: 4%;
 }
 
 #page-body h1 {
@@ -1124,7 +1125,7 @@ body {
 }
 
 #page-body p {
-  text-align: center;
+  text-align: left;
   font-size: 30px;
 }
 
@@ -1133,4 +1134,12 @@ body {
   justify-content: center;
   align-items: center;
   margin: 30px; /* Adjust margin as needed */
+}
+
+figcaption {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  font-weight: 500;
+  color: red;
 }
