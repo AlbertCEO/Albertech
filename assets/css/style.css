@@ -152,7 +152,7 @@ body {
 .h3 { font-family: var(--ff-source-sans-pro); }
 
 .btn {
-  background-image: var(--gradient-2);
+  background-color: black;
   background-size: 200%;
   color: var(--white);
   padding: 12px 35px; 
