@@ -7,7 +7,7 @@
 
   --st-patricks-blue: hsl(240, 82%, 2%);
   --amaranth-purple: hsl(335, 88%, 38%);
-  --royal-blue-dark: hsl(300, 100%, 2%);
+  --royal-blue-dark: #10000e;
   --chrome-yellow: hsl(39, 100%, 52%);
   --space-cadet-1: hsl(230, 41%, 25%);
   --space-cadet-2: hsl(230, 59%, 16%);
@@ -152,9 +152,9 @@ body {
 .h3 { font-family: var(--ff-source-sans-pro); }
 
 .btn {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   background-size: 200%;
-  color: var(--white);
+  color: #10000e ;
   padding: 12px 35px; 
   font-size: var(--fs-8);
   font-weight: var(--fw-500);
