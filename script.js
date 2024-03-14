@@ -56,9 +56,9 @@ function checkLength(input, min, max) {
 // check passwords match
 function checkPasswordsMatch(input1, input2) {
   if (input1.value !== input2.value) {
-    showError(input2, 'Passwords do not match');
+    showError(input2, 'Passwords do not match, Please Try Again');
   } else if (input1.value == ""){
-    showError(input2, 'Passwords cannot Be Empty');
+    showError(input2, 'Passwords cannot Be Empty. Please Enter Your Password');
   } else if (input1.value == input2.value && input1.value !== ""){
     Swal.fire({
       title: "Wow!!!",
